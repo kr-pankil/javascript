@@ -14,7 +14,7 @@ function sum(a,b)
 sum(9,4);
 //global var
 function fun(){
-var myGlobal =5;
+ myGlobal =5;
 }
 function f1()
 {
@@ -49,9 +49,36 @@ if(lol=='4')
 }
 if (lol ==='4'){//'4' string so string equality (===) false
     console.log("go & cry");
-}*/
+}*
 var lol='4';
 if(lol!=='4')
 {
     return 4;
 }
+function testSize(num)
+{
+    switch (true) {
+        case (num>5):
+            console.log("grater than 5");
+            break;
+        case (num <5):
+            console.log("less than 5");
+            break;
+        default:
+            console.log("num is 5");
+            break;    
+    }
+}
+testSize(50);
+testSize(10);
+testSize(5);
+function squareRoot(num)
+{
+    return Math.sqrt(num);
+}
+console.log(squareRoot(25));*/
+function power(num)
+{
+    return Math.pow(5,5);
+}
+console.log(power(5));
