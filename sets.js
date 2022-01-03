@@ -11,8 +11,8 @@ const a = "a";
 const b = "b";
 lett.add(a);
 lett.add(b);
-console.log(lett);*/
-//for each 
+console.log(lett);
+//for each */
 const letters = new Set(["a","b","c"]);
 
 // List all Elements
